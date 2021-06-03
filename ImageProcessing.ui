@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ImageProcessingClass</class>
+ <widget class="QMainWindow" name="ImageProcessingClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1291</width>
+    <height>817</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ImageProcessing</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>1251</width>
+      <height>771</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout" rowstretch="1" columnstretch="0"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1291</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuImage">
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>Image</string>
+     </property>
+     <widget class="QMenu" name="menuOpen">
+      <property name="title">
+       <string>Open</string>
+      </property>
+      <addaction name="actionPlease_drag_and_drop_directly"/>
+     </widget>
+     <addaction name="menuOpen"/>
+     <addaction name="separator"/>
+     <addaction name="actionNext"/>
+     <addaction name="separator"/>
+     <addaction name="actionLast"/>
+     <addaction name="separator"/>
+     <addaction name="actionTrue_False_Color"/>
+    </widget>
+    <widget class="QMenu" name="menuShp">
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>Shp</string>
+     </property>
+     <addaction name="actionOpen_2"/>
+     <addaction name="separator"/>
+     <addaction name="actionSave"/>
+     <addaction name="separator"/>
+     <addaction name="actionRemove"/>
+    </widget>
+    <widget class="QMenu" name="menuMode">
+     <property name="title">
+      <string>Mode     (ctrl+p)</string>
+     </property>
+     <addaction name="actionBrowse_Paint"/>
+    </widget>
+    <addaction name="menuImage"/>
+    <addaction name="separator"/>
+    <addaction name="menuShp"/>
+    <addaction name="separator"/>
+    <addaction name="menuMode"/>
+    <addaction name="separator"/>
+    <addaction name="actionClip"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionNext">
+   <property name="text">
+    <string>Next          (→)</string>
+   </property>
+  </action>
+  <action name="actionLast">
+   <property name="text">
+    <string>Last           (←)</string>
+   </property>
+  </action>
+  <action name="actionOpen_2">
+   <property name="text">
+    <string>Open          (ctrl+o)</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save            (ctrl+s)</string>
+   </property>
+  </action>
+  <action name="actionRemove">
+   <property name="text">
+    <string>Remove     (ctrl+r)</string>
+   </property>
+  </action>
+  <action name="actionBrowse_Paint">
+   <property name="text">
+    <string>Browse/Paint</string>
+   </property>
+  </action>
+  <action name="actionClip">
+   <property name="text">
+    <string>Clip         (ctrl+c)</string>
+   </property>
+  </action>
+  <action name="actionSave_File">
+   <property name="text">
+    <string>Save File</string>
+   </property>
+  </action>
+  <action name="actionPlease_drag_and_drop_directly">
+   <property name="text">
+    <string>Please drag and drop directly</string>
+   </property>
+  </action>
+  <action name="actionTrue_False_Color">
+   <property name="text">
+    <string>T/F Color (ctrl+t)</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="ImageProcessing.qrc"/>
+ </resources>
+ <connections/>
+</ui>
