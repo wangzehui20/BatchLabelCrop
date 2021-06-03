@@ -1,6 +1,6 @@
 # Batch Annotation and Crop Tools
 
-This tools is implemented by Qt, which is convenient to **label ROIs** in image using .shp format and **crop these ROIs batchingly** as data(256x256) in deep learning. Moreover, it could display image and segmentation correspondingly on linked widows and may be helpful to learn **QGraphicas**(View, Scene, Item).
+This tools is implemented by Qt, which is convenient to **label ROIs** in image using .shp format and **crop these ROIs batchingly** as data(256x256) in deep learning. Moreover, it could display image and segmentation correspondingly on linked widows and may be helpful to learn **QGraphics**(View, Scene, Item).
 
 ## Dependency
 
